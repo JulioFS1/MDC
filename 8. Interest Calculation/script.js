@@ -34,6 +34,6 @@ const num3 = () => {
 
   const montante = await capital * (Math.pow((1 + (Math.pow((1 + (juros/100)), 12)-1)), (tempo/12)));
 
-  console.log(`The final value ofyour investment is: ${montante.toFixed(2)}`);
+  console.log(`The final value of your investment is: ${montante.toFixed(2)}`);
   readline.close();
 })();
